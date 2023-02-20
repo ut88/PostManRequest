@@ -1,0 +1,33 @@
+// get url
+
+https://reqres.in/api/users/2
+
+
+// RESULT
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+
+
+// POST URL
+
+https://reqres.in/api/users
+
+
+// RESULT
+
+{
+    "id": "905",
+    "createdAt": "2023-02-20T18:19:05.361Z"
+}
